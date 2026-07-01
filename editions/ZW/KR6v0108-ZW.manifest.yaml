@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6v0108/ZW/v1
+canonical_location: https://kanripo.org/bkk/KR6v0108/ZW/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 御注金剛般若經
+  identifiers:
+    krp: KR6v0108
+    cbeta: ZW10n0081
+    cbeta_old_id: ZW10n0081
+    authorityid: CA0008525
+    json_key: ZW0081
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW10/ZW10n0081.xml
+    old_id: ZW10n0081
+  edition:
+    short: ZW
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0108_000-ZW.yaml, hash: 'sha256:4d06829f83713e3a95fe76a53bd0c14145969eb01f3ee186aff18fd3fe742aba'}
+  - {seq: 1, filename: KR6v0108_001-ZW.yaml, hash: 'sha256:9c45eecc07a95da99d0e6184652fdab5957822c39b332d08f55b39c55d9707b7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0108_000-ZW.markers.yaml, hash: 'sha256:75f6bc5affeb1c1446f47971249076294da752384dd347631e0134fddeedb968'}
+  - {seq: 1, role: markers, filename: assets/KR6v0108_001-ZW.markers.yaml, hash: 'sha256:a781a1becbf630afb92414be3388f1624583d4d0f5f96b2f0ee7c3a6b79ee63b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0108_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0108_ZW_000-mulu-2
+    span:
+    - front
+    - 2089
+    - 2089
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0108_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 12446
+  label: '金剛般若波羅蜜經注序
+
+    　御注并序'
+  type: juan
+  level: 1
+hash: sha256:60c585d50a787445718c0618c8643816b5624b4d3b77c5fe278aea72b321afe1
